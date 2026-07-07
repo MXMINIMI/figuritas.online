@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conmemora lo especial para ti con nuestras figuras</title>
+  <style>
+
+img:hover {
+  transform: scale(1.2); /* aumenta tamaño al 120% */
+  transition: transform 0.3s ease; /* animación fluida */
+  cursor: pointer; /* cambia el cursor */
+}
+
+
+    
+.card img {
+  width: 100%;
+  height: 250px; /* ajusta según el alto que prefieras */
+  object-fit: cover; /* mantiene proporción y recorta si es necesario */
+  border-radius: 8px; /* opcional, para esquinas suaves */
+}
+
+
+
+
+
+
+
+    
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .intro {
+      text-align: center;
+      padding: 1rem;
+      background: #fff;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .card h3 {
+      margin-top: 0.5rem;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>De tu idea a una figura, tu imaginación es el límite</h1>
+    <p>Figuras •  Bustos • Esculturas</p>
+  </header>
+
+  <section class="intro">
+    <p>Ofrecemos figuras personalizadas , ideal para regalos, colecciones o tributos!</p>
+    <p>Desde $799 MXN por figura + Envío </p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <a href="Mini.jpg" target="_blank">
+      <img src="Mini1.png" alt="Figurines">
+      </a>
+      <h3>Figuras de personas con nuestro sello </h3>
+      <p>Con nuestro estilo único y simpático. Ideal para escritorio o regalo.</p>
+    </div>
+    
+    <div class="card">
+      <a href="Minidibujo.png" target="_blank">
+      <img src="Minidibujo.png" alt="Del Dibujo a la Figura">
+      </a>
+      <h3>Del dibujo a la Figura</h3>
+      <p>¡Imagina admirar una figura de nació de tu lapiz!</p>
+    </div>
+    
+    <div class="card">
+      <a href="Bustomemorial.png" target="_blank">
+      <img src="Bustomemorial.png" alt="Busto Memorial">
+      </a>
+      <h3>Busto Memorial</h3>
+      <p>Elaboramos estos bonitos bustos para conmemorar la memoria de tu ser querido</p>
+    </div>
+     
+    <div class="card">
+      <a href="Esculturas.png" target="_blank">
+      <img src="Esculturas.png" alt="Esculturas tipo Hielo">
+      </a>
+      <h3>Esculturas de Hielo</h3>
+      <p>Impresionantes obras de arte con estilo tallado en hielo</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>📧 bustomemorial@outlook.com | tupaginaweb.lat@outlook.com📱 
+      <br><br>
+      Contactanos por WhatsApp y cotiza sin compromiso
+      <br><br>
+
+      <a href="https://wa.me/5637790401?text=Hola, deseo cotizar,%20deseo%20solicitar%20información%20sobre%20las figuras%20por%20 por favor." target="_blank">
+     
+        <img src="whats.jpg" alt="WhatsApp">
+      </a>
+<br>     <br>
+      WhatsApp: 56 3779 0401</p>
+    <p>© Figuritas.Online México . Todos los derechos reservados 2026</p>
+  </footer>
+
+</body>
+</html>
