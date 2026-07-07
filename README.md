@@ -1,2 +1,2 @@
 # figuritas.online
-Figuras en 3D
+figuritas.online
